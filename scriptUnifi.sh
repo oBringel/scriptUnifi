@@ -25,7 +25,7 @@ IPS=(
 192.168.2.x
 192.168.2.x
 )
-# valide se está ativo o ssh nas configuras da unifi
+# valide se está ativo o ssh nas configurações da unifi
 # pegue o usuário e senha em settings/system/controller e veja a opção - Device SSH Authentication
 # Você precisa instalar o sshpass
 # valide se suas antenas tem algum update ou esta tendo comunicação
