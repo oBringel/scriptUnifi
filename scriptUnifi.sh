@@ -34,7 +34,7 @@ do
         if sshpass -p "$PASS_SSH" ssh -o StrictHostKeyChecking=no $USER_SSH@$IP "reboot";then
                 echo "Reiniciando... Antena $IP"
         else
-                echo "Falha ao reiniar Antena: $IP"
+                echo "Falha ao reiniciar Antena: $IP"
                 echo "passando para proxima"
         fi
 done
