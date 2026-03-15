@@ -34,6 +34,7 @@ do
         if sshpass -p "$PASS_SSH" ssh -o StrictHostKeyChecking=no $USER_SSH@$IP "reboot";then
                 echo "Reiniciando... Antena $IP"
         else
+        ## pode ser adicionado tambem > echo "$(date '+%Y-%m-%d %H:%M:%S') Falha ao reiniciar Antena: $IP" >> /home/unifi/unifi.log
                 echo "Falha ao reiniciar Antena: $IP"
                 echo "passando para proxima"
         fi
